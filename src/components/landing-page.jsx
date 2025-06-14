@@ -15,10 +15,10 @@ export default function LandingPage({ onStartVerification }) {
       }}
     >
       {/* Dark overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/20"></div>
 
       <div className="text-center max-w-4xl mx-auto relative z-10">
-        <div className="bg-white/15 backdrop-blur-md rounded-2xl p-12 border border-white/30 shadow-2xl">
+        <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-12 border border-white/30 shadow-2xl">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight drop-shadow-lg">
             Mandatory Identity & Background Verification for Employment Onboarding
           </h1>
